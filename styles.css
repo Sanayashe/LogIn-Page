@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  width: 500px;
+  margin: 60px auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 40px 30px 400px 30px;
+  grid-template-columns: 1fr 200px;
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+}
+
+.wrapper > div {
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.about,
+.navbar,
+.sidebar,
+.footer,
+.header,
+.or,
+.login-link {
+  text-align: center;
+}
+
+.header {
+  grid-column: 1 / -1;
+  padding: 3px;
+  margin-top: 0.3rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  display: block;
+  padding: 3px 18px;
+}
+
+.link:hover {
+  background-color: rgb(231, 224, 224);
+}
+
+.sidebar {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.footer {
+  grid-column: 1 / 3;
+  grid-row: 4 / 5;
+  padding: 3px;
+  margin-top: 0.2rem;
+}
+
+.leftbar {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  padding: 10px 20px;
+}
+
+.leftbar > h3 {
+  font-family: Helvetica, sans-serif;
+  margin-bottom: 0.9rem;
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.6rem;
+}
+
+.login-input {
+  height: 1.8rem;
+  border-radius: 6px;
+  padding: 0 1.5rem;
+  border: 0.1rem solid #777;
+  font-weight: 100;
+  margin-bottom: 0.6rem;
+}
+.label-input {
+  margin-bottom: 0.6rem;
+}
+
+.form-button {
+  background-color: #036bb1;
+  color: #fff;
+  border: 1px solid #036bb1;
+  font-size: 1rem;
+  padding: 0.3rem;
+  cursor: pointer;
+  margin: 0.2rem 0;
+  border-radius: 6px;
+}
+
+.login-link {
+  margin: 0.4rem 0;
+}
+
+.about {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  padding: 3px;
+}
+
+img {
+  width: 40%;
+  border-radius: 50%;
+  margin-top: 0.6rem;
+}
+
+/* Margin for elements in each pages */
+
+.title {
+  margin: 2rem 0 0.6rem;
+}
+
+.text {
+  margin: 0.6rem 0;
+  line-height: 0.8rem;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftbar-content {
+  margin-top: 2rem;
+}
+
+.name {
+  color: blue; /*span styling */
+}
+
+.space {
+  margin: 1rem 0;
+}
+
+.table-style {
+  margin: 1.6rem 0;
+}
+
+/* End of margins for elements in each pages */
