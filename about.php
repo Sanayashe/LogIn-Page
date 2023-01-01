@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,11 +14,11 @@
       <?php include 'header.php';?>
       </div>
       <div class="navbar">
-        <a class="link" href="/home.html">Home</a>
-        <a class="link" href=/contacts.html>Contacts</a>
+        <a class="link" href="home.php">Home</a>
+        <a class="link" href="contacts.php">Contacts</a>
       </div>
       <div class="about">
-        <a class="link" href="/about.html">About</a> 
+        <a class="link" href="about.php">About</a> 
       </div>
 
       <div class="leftbar"> 
